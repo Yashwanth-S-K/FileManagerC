@@ -50,13 +50,13 @@ Compile the program:
 
 bash
 
-gcc fileManager.c -o fileManager.exe
+  gcc fileManager.c -o fileManager.exe
 
 Run the program:
 
 bash
 
-fileManager.exe
+  fileManager.exe
 
 
 
