@@ -28,12 +28,12 @@ To compile and run this program, you need:
    git clone https://github.com/Yashwanth-S-K/FileManagerC.git
    cd FileManagerC
 
-2.Compile the C program using GCC:
+ 2.Compile the C program using GCC:
 
     bash
       gcc fileManager.c -o fileManager
 
-3.Run the program:
+ 3.Run the program:
 
       bash
       ./fileManager
