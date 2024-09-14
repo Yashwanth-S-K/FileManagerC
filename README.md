@@ -28,17 +28,15 @@ To compile and run this program, you need:
    git clone https://github.com/your-username/your-repository-name.git
    cd your-repository-name
 
-    Compile the C program using GCC:
+2.Compile the C program using GCC:
 
     bash
+      gcc fileManager.c -o fileManager
 
-gcc fileManager.c -o fileManager
+3.Run the program:
 
-Run the program:
-
-bash
-
-    ./fileManager
+      bash
+      ./fileManager
 
 On Windows:
 
