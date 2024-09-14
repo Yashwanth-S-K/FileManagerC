@@ -1,5 +1,3 @@
-# FileManagerC
-
 # File Manager in C
 
 This project is a simple file manager system written in C that allows users to create folders, create and edit files, delete files or folders, and navigate through directories using the terminal.
@@ -13,7 +11,7 @@ This project is a simple file manager system written in C that allows users to c
 - **List Directory Contents**: Automatically list all files and folders in the current directory before every operation.
 - **Enter Directory**: Navigate into a subdirectory to view its contents.
 - **Go Back**: Move back to the parent directory from a subdirectory.
-  
+
 ## Prerequisites
 
 To compile and run this program, you need:
@@ -24,9 +22,15 @@ To compile and run this program, you need:
 ## How to Compile
 
 ### On Linux/Unix-based systems:
-Compile the C program using GCC:
 
-bash
+1. Clone the repository from GitHub:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
+   cd your-repository-name
+
+    Compile the C program using GCC:
+
+    bash
 
 gcc fileManager.c -o fileManager
 
@@ -43,23 +47,17 @@ On Windows:
 
     bash
 
-git clone https://github.com/Yashwanth-S-K/FileManagerC.git
-cd FileManagerC
+git clone https://github.com/your-username/your-repository-name.git
+cd your-repository-name
 
 Compile the program:
 
 bash
 
-  gcc fileManager.c -o fileManager.exe
+gcc fileManager.c -o fileManager.exe
 
 Run the program:
 
 bash
 
-  fileManager.exe
-
-
-
-License
-
-This project is open-source and available under the MIT License. See the LICENSE file for more details.
+fileManager.exe
