@@ -45,17 +45,17 @@ On Windows:
 
     bash
 
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+      git clone https://github.com/Yashwanth-S-K/FileManagerC.git
+      cd your-repository-name
 
 Compile the program:
-
-bash
-
-gcc fileManager.c -o fileManager.exe
+      
+      bash
+      
+      gcc fileManager.c -o fileManager.exe
 
 Run the program:
 
-bash
-
-fileManager.exe
+      bash
+      
+      fileManager.exe
