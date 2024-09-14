@@ -46,7 +46,7 @@ On Windows:
     bash
 
       git clone https://github.com/Yashwanth-S-K/FileManagerC.git
-      cd your-repository-name
+      cd FileManagerC
 
 Compile the program:
       
