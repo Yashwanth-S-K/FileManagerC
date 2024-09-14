@@ -25,8 +25,8 @@ To compile and run this program, you need:
 
 1. Clone the repository from GitHub:
    ```bash
-   git clone https://github.com/your-username/your-repository-name.git
-   cd your-repository-name
+   git clone https://github.com/Yashwanth-S-K/FileManagerC.git
+   cd FileManagerC
 
 2.Compile the C program using GCC:
 
