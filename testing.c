@@ -62,12 +62,6 @@ int main() {
         printf("Iteration %d execution time: %.6f seconds\n", i + 1, execution_times[i]);
     }
 
-    // Print all execution times
-    printf("\nExecution times for each iteration:\n");
-    for (int i = 0; i < NUM_ITERATIONS; i++) {
-        printf("Iteration %d: %.6f seconds\n", i + 1, execution_times[i]);
-    }
-
     // Calculating average execution time over all iterations
     double total_time = 0;
     for (int i = 0; i < NUM_ITERATIONS; i++) {
@@ -75,6 +69,12 @@ int main() {
     }
 
     printf("\nAverage execution time for %d iterations: %.6f seconds\n", NUM_ITERATIONS, total_time / NUM_ITERATIONS);
+
+    // Loop to print all execution times stored in the array
+    printf("\nExecution times for each iteration:\n");
+    for (int i = 0; i < NUM_ITERATIONS; i++) {
+        printf("Execution time for iteration %d: %.6f seconds\n", i + 1, execution_times[i]);
+    }
 
     return 0;
 }
